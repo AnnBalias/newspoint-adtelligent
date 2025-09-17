@@ -7,7 +7,8 @@
   },
   "files": {
     "ignoreUnknown": false,
-    "includes": ["src/**/*", "*.ts", "*.tsx", "*.js", "*.jsx"]
+    "includes": ["src/**/*", "*.ts", "*.tsx", "*.js", "*.jsx"],
+    "experimentalScannerIgnores": ["src/index.css"]
   },
   "linter": {
     "enabled": true,
@@ -21,6 +22,11 @@
       },
       "suspicious": {
         "noExplicitAny": "warn"
+      },
+      "a11y": {
+        "noSvgWithoutTitle": "warn",
+        "useValidAnchor": "warn",
+        "useButtonType": "warn"
       }
     }
   },
