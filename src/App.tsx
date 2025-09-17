@@ -3,12 +3,10 @@ import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import { Loader } from './components/Loader';
 import { Layout } from './components/Layout';
 
-// Ленивая загрузка страниц
 const HomePage = lazy(() => import('./pages/HomePage').then(module => ({ default: module.HomePage })));
 const LoginPage = lazy(() => import('./pages/LoginPage').then(module => ({ default: module.LoginPage })));
 const RegisterPage = lazy(() => import('./pages/RegisterPage').then(module => ({ default: module.RegisterPage })));
 
-// Компонент загрузки
 const LoadingSpinner = () => (
   <Loader 
     size="lg" 
