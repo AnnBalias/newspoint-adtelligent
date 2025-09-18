@@ -62,8 +62,8 @@ export function NewsDetailPage() {
             </h1>
             
             <div className="prose prose-lg max-w-none">
-              {news.content.split('\n\n').map((paragraph, index) => (
-                <p key={index} className="text-gray-700 mb-4 leading-relaxed">
+              {news.content.split('\n').map((paragraph, index) => (
+                <p key={`${news.id}-paragraph-${index}`} className="text-gray-700 mb-4 leading-relaxed">
                   {paragraph}
                 </p>
               ))}
