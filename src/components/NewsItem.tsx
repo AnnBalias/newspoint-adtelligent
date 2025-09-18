@@ -13,6 +13,8 @@ export const NewsCard = ({ news }: NewsCardProps) => {
           src={news.image}
           alt={news.title}
           className="w-full h-48 object-cover"
+          loading="lazy"
+          decoding="async"
         />
       </div>
       
