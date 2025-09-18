@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { UserIcon } from '../assets/icons';
 import { Button, Card, Input  } from './';
 import { type RegisterFormData, registerSchema } from '../schemas/auth';
+import { useId } from "react";
 
 interface RegisterFormProps {
   onSubmit: (data: RegisterFormData) => void;
@@ -11,6 +12,9 @@ interface RegisterFormProps {
 }
 
 export const RegisterForm = ({ onSubmit, isSubmitting = false }: RegisterFormProps) => {
+  
+  const termsId = useId();
+
   const {
     register,
     handleSubmit,
@@ -66,21 +70,14 @@ export const RegisterForm = ({ onSubmit, isSubmitting = false }: RegisterFormPro
 
             <div className="flex items-center">
               <input
-                id="terms"
+                id={termsId}
                 name="terms"
                 type="checkbox"
                 required
                 className="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded"
               />
               <label htmlFor="terms" className="ml-2 block text-sm text-gray-700">
-                I agree to the{' '}
-                <a href="#" className="text-blue-600 hover:text-blue-500 font-medium">
-                  Terms of Service
-                </a>{' '}
-                and{' '}
-                <a href="#" className="text-blue-600 hover:text-blue-500 font-medium">
-                  Privacy Policy
-                </a>
+                I agree to the Terms of Service and Privacy Policy
               </label>
             </div>
 
