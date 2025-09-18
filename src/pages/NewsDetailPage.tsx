@@ -1,13 +1,17 @@
 import { useParams, Link, Navigate } from 'react-router-dom';
-import newsData from '../data/news.json';
-import type { NewsItem } from '../types/news';
+import { Loader } from '../components/Loader';
+import { useNewsItem } from '../hooks/useNews';
 
 export function NewsDetailPage() {
   const { id } = useParams<{ id: string }>();
   
-  const news = (newsData as NewsItem[]).find(item => item.id === id);
+  const { data: news, isLoading, error } = useNewsItem(id || '');
   
-  if (!news) {
+  if (isLoading) {
+    return <Loader fullScreen size="lg" color="blue" />;
+  }
+
+  if (error || !news) {
     return <Navigate to="/news" replace />;
   }
 
@@ -43,6 +47,8 @@ export function NewsDetailPage() {
               src={news.image}
               alt={news.title}
               className="w-full h-64 md:h-80 object-cover"
+              loading="lazy"
+              decoding="async"
             />
           </div>
           
