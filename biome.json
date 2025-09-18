@@ -20,8 +20,16 @@
       "style": {
         "noNonNullAssertion": "warn"
       },
-      "suspicious": {
-        "noExplicitAny": "warn"
+"suspicious": {
+        "noExplicitAny": "warn",
+        "noUnknownAtRules": {
+          "level": "off",
+          "options": {
+            "ignoreAtRules": [
+              "theme"
+            ]
+          }
+        }
       },
       "a11y": {
         "noSvgWithoutTitle": "warn",
