@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 export const HomePage = () => {
 
   return (
@@ -12,18 +14,18 @@ export const HomePage = () => {
             Please log in or register to continue
           </p>
           <div className="space-x-4">
-            <a
-              href="/login"
+            <Link
+              to="/login"
               className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg font-medium transition-colors"
             >
               Login
-            </a>
-            <a
-              href="/register"
+            </Link>
+            <Link
+              to="/register"
               className="bg-gray-200 hover:bg-gray-300 text-gray-800 px-6 py-2 rounded-lg font-medium transition-colors"
             >
               Register
-            </a>
+            </Link>
           </div>
         </div>
       </div>

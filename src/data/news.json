@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1",
+    "title": "OpenAI Introduces New GPT-5 Model with Enhanced Capabilities",
+    "preview": "OpenAI has announced the release of GPT-5, which features significantly improved text processing and context understanding capabilities.",
+    "content": "OpenAI has officially unveiled its new artificial intelligence model GPT-5, which represents the next step in the development of natural language processing technologies.\n\nThe new model demonstrates significantly improved capabilities compared to previous versions. GPT-5 is better able to understand context, process complex queries, and provide more accurate responses.\n\nKey improvements include:\n- Enhanced understanding of context and language nuances\n- Increased query processing speed\n- Better creative writing capabilities\n- Improved accuracy in technical questions\n\nThe model is already available for testing in limited mode, with a full launch planned for the next quarter. AI industry experts highly rate the potential of the new model and its impact on various industries.",
+    "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+    "date": "2024-01-15"
+  },
+  {
+    "id": "2",
+    "title": "React 19 Released with New Features and Improvements",
+    "preview": "The React team has announced the release of React 19 with new hooks, improved performance, and server component support.",
+    "content": "Facebook (Meta) has officially released React 19 - the latest version of the popular library for creating user interfaces. This release brings significant improvements for developers.\n\nKey innovations in React 19:\n\n**New Hooks:**\n- use() - for working with promises and context\n- useOptimistic() - for optimistic UI updates\n- useFormStatus() - for getting form status\n\n**Performance Improvements:**\n- Automatic batching for all updates\n- Enhanced server component support\n- Re-rendering optimization\n\n**New Features:**\n- Web component support\n- Improved form handling\n- New APIs for DOM manipulation\n\nDevelopers can already upgrade their projects to React 19, but it's recommended to test the changes in a dev environment first.",
+    "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800&h=400&fit=crop",
+    "date": "2024-01-12"
+  },
+  {
+    "id": "3",
+    "title": "Microsoft Invests $10 Billion in Artificial Intelligence Development",
+    "preview": "Microsoft has announced a massive investment in AI technology development, including partnerships with OpenAI and the creation of new data centers.",
+    "content": "Microsoft Corporation has announced the largest investment in the company's history - $10 billion in artificial intelligence technology development. This initiative is designed to strengthen Microsoft's position as a leader in the AI industry.\n\n**Main Investment Areas:**\n\n1. **Partnership with OpenAI**\n   - Expanding collaboration with OpenAI\n   - Integration of GPT models into Microsoft products\n   - Joint development of new AI solutions\n\n2. **Infrastructure**\n   - Building new data centers\n   - Improving computational power\n   - Development of Azure AI cloud services\n\n3. **Research and Development**\n   - Funding AI research\n   - Supporting AI startups\n   - Development of proprietary AI models\n\nThis investment demonstrates Microsoft's serious commitment to artificial intelligence and its readiness to compete with other tech giants.",
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop",
+    "date": "2024-01-10"
+  },
+  {
+    "id": "4",
+    "title": "TypeScript 5.0 Brings New Features for Developers",
+    "preview": "Microsoft has released TypeScript 5.0 with new features, improved performance, and better support for modern JavaScript patterns.",
+    "content": "The TypeScript team at Microsoft has released major version 5.0, which brings significant improvements for developers worldwide. The new version focuses on performance, new features, and better support for modern JavaScript patterns.\n\n**Key innovations in TypeScript 5.0:**\n\n**Performance Improvements:**\n- Faster compilation (up to 2x faster)\n- Optimized work with large projects\n- Improved type caching\n\n**New Features:**\n- Decorator support\n- New utility types\n- Enhanced const assertions support\n- New compiler options\n\n**Development Improvements:**\n- Better error messages\n- Enhanced IDE support\n- New diagnostic capabilities\n\nTypeScript 5.0 also includes support for the latest JavaScript features, making it an ideal choice for modern web projects.",
+    "image": "https://images.unsplash.com/photo-1516116216624-53e697fedbea?w=800&h=400&fit=crop",
+    "date": "2024-01-08"
+  },
+  {
+    "id": "5",
+    "title": "GitHub Copilot Now Supports More Programming Languages",
+    "preview": "GitHub has expanded Copilot's capabilities by adding support for 15 new programming languages and improving code generation quality.",
+    "content": "GitHub has announced a significant expansion of its AI assistant Copilot's capabilities. The service now supports 15 additional programming languages and has improved code generation features.\n\n**New Supported Languages:**\n- Rust\n- Go\n- Kotlin\n- Swift\n- Scala\n- R\n- Julia\n- Lua\n- Perl\n- PHP\n- Ruby\n- C++\n- C#\n- Java\n- Python (enhanced support)\n\n**Functionality Improvements:**\n- Better contextual understanding\n- Improved test generation\n- Code refactoring support\n- Integration with popular IDEs\n\n**New Features:**\n- Automatic documentation creation\n- Code comment generation\n- Optimization suggestions\n- Support for various frameworks\n\nGitHub Copilot is now available for most popular programming languages, making it an indispensable tool for developers of various specializations.",
+    "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&h=400&fit=crop",
+    "date": "2024-01-05"
+  }
+]
