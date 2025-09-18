@@ -14,17 +14,12 @@ export const NewsCard = ({ news }: NewsCardProps) => {
           alt={news.title}
           className="w-full h-48 object-cover"
         />
-        <div className="absolute top-4 left-4">
-          <span className="bg-blue-600 text-white px-3 py-1 rounded-full text-sm font-medium">
-            {news.category}
-          </span>
-        </div>
       </div>
       
       <div className="p-6">
         <div className="flex items-center text-sm text-gray-500 mb-3">
           <time dateTime={news.date}>
-            {new Date(news.date).toLocaleDateString('uk-UA', {
+            {new Date(news.date).toLocaleDateString('en-US', {
               year: 'numeric',
               month: 'long',
               day: 'numeric'

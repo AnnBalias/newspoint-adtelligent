@@ -1,4 +1,4 @@
-import { NewsCard } from './NewsCard';
+import { NewsCard } from './NewsItem';
 import type { NewsItem } from '../types/news';
 
 interface NewsListProps {
