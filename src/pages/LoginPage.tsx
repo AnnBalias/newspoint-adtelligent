@@ -13,7 +13,7 @@ export const LoginPage = () => {
     try {
       console.log('Login data:', { email: data.email, password: '[HIDDEN]' });
       console.log('Full login data (for development):', data);
-      navigate('/');
+      navigate('/news');
     } finally {
       setIsSubmitting(false);
     }

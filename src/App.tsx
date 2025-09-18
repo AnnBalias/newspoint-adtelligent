@@ -6,6 +6,8 @@ import { Layout } from './components/Layout';
 const HomePage = lazy(() => import('./pages/HomePage').then(module => ({ default: module.HomePage })));
 const LoginPage = lazy(() => import('./pages/LoginPage').then(module => ({ default: module.LoginPage })));
 const RegisterPage = lazy(() => import('./pages/RegisterPage').then(module => ({ default: module.RegisterPage })));
+const NewsPage = lazy(() => import('./pages/NewsPage').then(module => ({ default: module.NewsPage })));
+const NewsDetailPage = lazy(() => import('./pages/NewsDetailPage').then(module => ({ default: module.NewsDetailPage })));
 
 const LoadingSpinner = () => (
   <Loader 
@@ -24,6 +26,8 @@ function App() {
             <Route index element={<HomePage />} />
             <Route path="login" element={<LoginPage />} />
             <Route path="register" element={<RegisterPage />} />
+            <Route path="news" element={<NewsPage />} />
+            <Route path="news/:id" element={<NewsDetailPage />} />
           </Route>
         </Routes>
       </Suspense>

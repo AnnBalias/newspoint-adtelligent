@@ -23,6 +23,7 @@ export default defineConfig({
     }),
     Inspect(),
   ],
+  base: "/",
   build: {
     minify: 'terser',
     terserOptions: {

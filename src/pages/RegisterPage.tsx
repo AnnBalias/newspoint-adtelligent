@@ -18,7 +18,7 @@ export const RegisterPage = () => {
       });
       console.log('Full register data (for development):', data);
   
-      navigate('/');
+      navigate('/news');
     } finally {
       setIsSubmitting(false);
     }
